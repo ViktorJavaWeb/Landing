@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.outline1{
+    outline: 1px solid black;
+}
+
+.outline2{
+    outline: 1px solid darkgoldenrod;
+}
+
+
+.wrapper{
+    width: 1280px;
+    margin: 5px auto;
+}
+
+.header{
+    height: 720px;
+    background-image: url("../images/video-bg.jpg");
+
+}
