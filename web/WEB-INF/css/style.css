@@ -1,3 +1,10 @@
+@import "fontsStyle.css";
+@import "flaticon.css";
+@import "material-icons.css";
+
+/*<link rel="stylesheet" type="text/css" href="your_website_domain/css_root/flaticon.css">*/
+
+
 *{
     margin: 0;
     padding: 0;
@@ -19,6 +26,7 @@
 .wrapper{
     width: 1280px;
     margin: 5px auto;
+    outline: 5px solid red;
 }
 
 .header{
@@ -59,13 +67,24 @@
 }
 
 .aboutUs{
-    width: 100%;
+    margin: auto;
+    max-width: 750px;
     height: 300px;
 }
 .about{
     text-align: center;
 }
+.about p:first-child{
+    font-family: 'Lato Regular';
+    font-size: 45px;
+    text-transform: capitalize;
+}
 
+.us1{
+    font-family: 'Lato Bold';
+    font-size: 20px;
+    text-transform: capitalize;
+}
 
 .aboutUsBlok div{
     outline: 1px solid tomato;
@@ -75,10 +94,12 @@
 }
 
 .icon{
-    width: 20%;
+    max-width:60px;
     height: 100%;
     background-color: beige;
     float: left;
+    text-align: right;
+
 }
 .leftTop{
     width: 50%;
@@ -105,6 +126,9 @@
     width: 50%;
     float: left;
 }
+.leftBottom{
+
+}
 
 .righttBottom{
     width: 50%;
@@ -113,23 +137,35 @@
 }
 .textAboutUsBlok{
     float: right;
-    width: 80%;
+    width: 290px;
     height: 100%;
     background-color: bisque;
 }
 .textAboutUsBlok :nth-child(1){
     text-transform: capitalize;
-    font: bold 14px sans-serif;
+    font: bold 20px 'Lato Regular';
 }
 
-.textAboutUsBlok :nth-child(2){
+.textAboutUsBlok :nth-child(even){
     text-transform: capitalize;
-    font:  sans-serif;
-    font-style: italic;
+    font: normal 16px 'Lato Regular';
 }
 
-.featuresBlok div{
+.featuresBlok{
     outline: 1px solid yellowgreen;
+    width: 100%;
+
+}
+.textFeatures{
+    width: 50%;
+    float: left;
+}
+.featuresImg{
+    width: 50%;
+    height: 680px;
+    background-image: url("../images/Depositphotos_14779185_original copy2.png");
+    background-repeat: no-repeat;
+    float: right;
 }
 
 
@@ -140,3 +176,5 @@
 background: linear-gradient(to right, red 0, red 50%, blue 50%, blue 100%);
     background: linear-gradient(to right, red, transparent), linear-gradient(to top, blue, transparent);
     background: linear-gradient(to right, red, blue);*/
+
+
