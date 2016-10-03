@@ -33,30 +33,33 @@
 /*========= КОНЕЦ ГЛОБАЛЬНЫЕ НАСТРОЙКИ =======================================*/
 
 .wrapper{
-    width: 1170px;
+    width: 1920px;
     margin: 5px auto;
     outline: 5px solid red;
 }
 
 /*========== HEADER ============================================*/
 .header{
-    height: 720px;
-    background-image: url("../images/video-bg.jpg");
+    height: 1120px;
+    background-image: url("../images/video-bg-4.png");
     text-align: center;
     color: #FFF;
 }
 
 .header h1{
+    padding-top: 143px;
     font-family: 'Lato-Bold';
     font-size: 45px;
     text-transform: uppercase;   
 }
 
 .header p{
+
     font-family: 'Lato Black';
     font-size: 20px;
 }
 .header span{
+
     font-family: 'Lato Regular';
     font-size: 65px;
     text-transform: capitalize;
@@ -64,26 +67,47 @@
 
 
 .formW{
-    width: 200px;
-    margin: 250px 570px;
-    padding: 10px;
-    background-color: rgba(255,255,255,0.5);
+    box-sizing: border-box;
+    padding: 20px;
+    margin: auto;
+    width: 370px;
+    height: 320px;
+    background-color: #e3e1df;  /*rgba(255,255,255,0.4)*/
     text-align: center;
-}
-.formW input{
-    margin: 5px 10px;
-    border: 0px;
-    padding: 7px;
-    width: 150px;
-}
-
-.getStarted{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+.formW input{
+    margin: 10px 10px 0;
+    padding-left: 20px;
+    border: 1px solid #cccccc;
+    font-family: 'Lato Regular';
+    color: #595958;
+    font-size: 22px;
+    width: 290px;
+    height: 51px;
+}
+/*.formW input:first-child{
+    margin: 0;
+}*/
+
+.getStarted{
+    width: 310px !important;
+    height: 61px !important;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
     background-color: deepskyblue;
     text-transform: uppercase;
+    margin: 20px 0 10px 0 !important;
+}
+
+.getStarted:hover{
+    background-color: #EF3159;
+    cursor: pointer;
 }
 
 /*========= КОНЕЦ HEADER =====================================================*/
@@ -127,15 +151,6 @@
     float: left;    
     padding-left: 100px;
 }
-/*
-.leftTop, .rightTop, .leftBottom, .righttBottom div:nth-child(3n+2){
-    background-color: beige;
-
-}
-.leftTop, .rightTop, .leftBottom, .righttBottom div:nth-child(odd){
-    background-color: bisque;
-}
-*/
 
 .rightTop{
     width: 400px;
