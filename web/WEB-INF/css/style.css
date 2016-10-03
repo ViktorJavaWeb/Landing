@@ -4,6 +4,7 @@
 
 /*<link rel="stylesheet" type="text/css" href="your_website_domain/css_root/flaticon.css">*/
 
+/*========== ГЛОБАЛЬНЫЕ НАСТРОЙКИ ============================================*/
 
 *{
     margin: 0;
@@ -21,33 +22,52 @@
 .outline2{
     outline: 1px solid darkgoldenrod;
 }
+.colorBlok1{
+    background-color: seashell;
+}
 
+.colorBlok2{
+    background-color: khaki;
+}
+
+/*========= КОНЕЦ ГЛОБАЛЬНЫЕ НАСТРОЙКИ =======================================*/
 
 .wrapper{
-    width: 1280px;
+    width: 1170px;
     margin: 5px auto;
     outline: 5px solid red;
 }
 
+/*========== HEADER ============================================*/
 .header{
     height: 720px;
     background-image: url("../images/video-bg.jpg");
-
+    text-align: center;
+    color: #FFF;
 }
 
-.forma{
-    width: 200px;
-    outline: 1px solid black;
-    margin: auto;
-
-    background-color: aliceblue;
-
+.header h1{
+    font-family: 'Lato-Bold';
+    font-size: 45px;
+    text-transform: uppercase;   
 }
+
+.header p{
+    font-family: 'Lato Black';
+    font-size: 20px;
+}
+.header span{
+    font-family: 'Lato Regular';
+    font-size: 65px;
+    text-transform: capitalize;
+}
+
+
 .formW{
+    width: 200px;
+    margin: 250px 570px;
     padding: 10px;
-    outline: 1px solid brown;
-    margin: auto;
-    background-color: antiquewhite;
+    background-color: rgba(255,255,255,0.5);
     text-align: center;
 }
 .formW input{
@@ -66,14 +86,18 @@
     text-transform: uppercase;
 }
 
+/*========= КОНЕЦ HEADER =====================================================*/
+
+
+/*========== ABOUT US ========================================================*/
 .aboutUs{
     margin: auto;
-    max-width: 750px;
-    height: 300px;
+   /*max-width: 750px;*/
 }
 .about{
     text-align: center;
 }
+
 .about p:first-child{
     font-family: 'Lato Regular';
     font-size: 45px;
@@ -87,24 +111,21 @@
 }
 
 .aboutUsBlok div{
-    outline: 1px solid tomato;
+    
 }
 .aboutUsBlok{
     width: 100%;
 }
 
 .icon{
-    max-width:60px;
     height: 100%;
-    background-color: beige;
     float: left;
-    text-align: right;
-
 }
-.leftTop{
-    width: 50%;
-    float: left;
 
+.leftTop{
+    width: 400px;
+    float: left;    
+    padding-left: 100px;
 }
 /*
 .leftTop, .rightTop, .leftBottom, .righttBottom div:nth-child(3n+2){
@@ -117,29 +138,31 @@
 */
 
 .rightTop{
-    width: 50%;
+    width: 400px;
     float: right;
+    padding-right: 150px;
 
 }
 
 .leftBottom{
-    width: 50%;
+    width: 400px;
     float: left;
+    padding-left: 100px;
 }
 .leftBottom{
 
 }
 
 .righttBottom{
-    width: 50%;
+    width: 400px;    
     float: right;
+    padding-right: 150px;
 
 }
 .textAboutUsBlok{
     float: right;
     width: 290px;
     height: 100%;
-    background-color: bisque;
 }
 .textAboutUsBlok :nth-child(1){
     text-transform: capitalize;
@@ -150,25 +173,86 @@
     text-transform: capitalize;
     font: normal 16px 'Lato Regular';
 }
+/*========= КОНЕЦ ABOUT US ===================================================*/
 
+
+/*========== FEATURES ========================================================*/
+.features{
+    text-align: center;
+}
+.features p:first-child{
+    font-family: 'Lato Regular';
+    font-size: 45px;
+    text-transform: capitalize;
+}
 .featuresBlok{
-    outline: 1px solid yellowgreen;
     width: 100%;
 
 }
 .textFeatures{
-    width: 50%;
+    width: 40%;
     float: left;
+    padding-top: 20px;
+    padding-left: 40px;
 }
+
+.textFeatures h3{
+    text-transform: capitalize;
+}
+
+.textFeaturesInstant{
+    position: relative;
+    padding-left: 110px;
+}
+
+.textFeaturesVarios{
+    position: relative;
+    padding-left: 110px;
+}
+
+.textFeaturesFull{
+    position: relative;
+    padding-left: 110px;
+}
+
+.iconFeatures{
+    position: absolute;
+    left: 10px;
+    
+}
+.textFeaturesFormat{
+    margin-top: 30px;
+}
+.textFeaturesFormat p, h3{
+    width: 90%;
+    text-align: left;
+}
+
 .featuresImg{
     width: 50%;
-    height: 680px;
-    background-image: url("../images/Depositphotos_14779185_original copy2.png");
-    background-repeat: no-repeat;
     float: right;
+    position: relative;
 }
+    .colorQrt{   
+        margin: 20px auto;
+        width: 400px;
+        height:300px;
+        background: linear-gradient(to right, red 0, red 50%, blue 50%, blue 100%);
+    }
+    .featuresImg img{
+        width: 40%;
+        position: absolute;
+        top: 10px;
+        right: 200px;
+    }
+    
+/*========= КОНЕЦ FEATURES ===================================================*/
 
 
+/*========== ADVANTAGES ======================================================*/
+
+
+/*========= КОНЕЦ ADVANTAGES =================================================*/
 
 
 
