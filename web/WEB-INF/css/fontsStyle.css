@@ -14,7 +14,8 @@
     url("../fonts/Lato_Black/Lato-Black.woff") format("woff"),
     url("../fonts/Lato_Black/Lato-Black.ttf") format("truetype"),
     url("../fonts/Lato_Black/Lato-Black.svg#../fonts/Lato_Black/Lato-Black") format("svg");
-    font-weight:normal;font-style:normal;
+    font-weight:normal;
+    font-style:normal;
 }
 @font-face {
     font-family:"Lato Bold";
@@ -22,7 +23,8 @@
     url("../fonts/Lato_Bold/Lato-Bold.woff") format("woff"),
     url("../fonts/Lato_Bold/Lato-Bold.ttf") format("truetype"),
     url("../fonts/Lato_Bold/Lato-Bold.svg#../fonts/Lato_Bold/Lato-Bold") format("svg");
-    font-weight:normal;font-style:normal;
+    font-weight:normal;
+    font-style:normal;
 }
 @font-face {
     font-family:"Lato Regular";
@@ -37,4 +39,13 @@
     font-family: "Myriad Pro Regular";
     src: url("../fonts/MyriadProRegular/MyriadPro.ttf") format("truetype");
 }
+@font-face {
+    font-family:"Lato Light";
+    src:url("../fonts/Lato_Light/Lato-Light.eot?") format("eot"),
+    url("../fonts/Lato_Light/Lato-Light.woff") format("woff"),
+    url("../fonts/Lato_Light/Lato-Light.ttf") format("truetype"),
+    url("../fonts/Lato_Light/Lato-Light.svg#../fonts/Lato_Light/Lato-Light") format("svg");
+    font-weight:normal;
+    font-style:normal;}
+
 

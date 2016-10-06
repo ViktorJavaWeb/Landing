@@ -29,246 +29,159 @@
 .colorBlok2{
     background-color: khaki;
 }
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    font-family: 'Lato Regular';
+}
+
 
 /*========= КОНЕЦ ГЛОБАЛЬНЫЕ НАСТРОЙКИ =======================================*/
 
-.wrapper{
-    width: 1920px;
-    margin: 5px auto;
-    outline: 5px solid red;
-}
 
 /*========== HEADER ============================================*/
-.header{
-    height: 1120px;
-    background-image: url("../images/video-bg-4.png");
-    text-align: center;
-    color: #FFF;
-}
-
-.header h1{
+.header{   
     padding-top: 143px;
-    font-family: 'Lato-Bold';
-    font-size: 45px;
-    text-transform: uppercase;   
+    padding-bottom: 135px;
+    text-align: center;
+    background-image: url("../images/video-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
 }
-
+.header h1{   
+   font-family: 'Lato Black';
+   font-size: 62px;
+   text-transform: uppercase
+    
+}
 .header p{
-
-    font-family: 'Lato Black';
-    font-size: 20px;
+    margin-top: 135px;
+    font-size: 34px; 
 }
 .header span{
-
-    font-family: 'Lato Regular';
-    font-size: 65px;
+    font-family: 'Lato Light';
+    font-size: 112px;
     text-transform: capitalize;
 }
 
-
 .formW{
-    box-sizing: border-box;
-    padding: 20px;
-    margin: auto;
+    margin: 150px auto 0;
     width: 370px;
-    height: 320px;
-    background-color: #e3e1df;  /*rgba(255,255,255,0.4)*/
-    text-align: center;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    background-color: whitesmoke;
+    padding: 30px;
+    box-sizing: border-box;
 }
-.formW input{
-    margin: 10px 10px 0;
+.formW input[type="text"]{
+    width: 310px;
+    height: 50px;
     padding-left: 20px;
-    border: 1px solid #cccccc;
-    font-family: 'Lato Regular';
-    color: #595958;
-    font-size: 22px;
-    width: 290px;
-    height: 51px;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    
 }
-/*.formW input:first-child{
-    margin: 0;
-}*/
 
 .getStarted{
-    width: 310px !important;
-    height: 61px !important;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-    background-color: deepskyblue;
+    width: 310px;
+    height: 60px;
     text-transform: uppercase;
-    margin: 20px 0 10px 0 !important;
+    background-color: #5DBDFE;
+    margin-top: 10px;
 }
-
 .getStarted:hover{
-    background-color: #EF3159;
     cursor: pointer;
+    background-color: chocolate;
 }
-
 /*========= КОНЕЦ HEADER =====================================================*/
 
 
 /*========== ABOUT US ========================================================*/
 .aboutUs{
-    margin: auto;
-   /*max-width: 750px;*/
-}
-.about{
+    padding-top: 200px;
+    padding-bottom: 135px;
+    margin: 0 auto;
+    background-color: white;
     text-align: center;
+    font-size: 0;
 }
-
-.about p:first-child{
-    font-family: 'Lato Regular';
+.aboutUs .container h2{
     font-size: 45px;
     text-transform: capitalize;
+    margin-bottom: 30px; 
 }
-
-.us1{
+.aboutUs .container p{
+  
     font-family: 'Lato Bold';
     font-size: 20px;
-    text-transform: capitalize;
+    margin-bottom: 50px;
 }
 
-.aboutUsBlok div{
+.aboutUsCell{
+    width: 50%;
+    outline: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding-left:100px;
+    box-sizing: border-box;
+    text-align: left;
+    
+           
+}
+.iconAboutUsCell{
+    position: absolute;
+    margin-left: -100px;
     
 }
-.aboutUsBlok{
-    width: 100%;
-}
 
-.icon{
-    height: 100%;
-    float: left;
-}
-
-.leftTop{
-    width: 400px;
-    float: left;    
-    padding-left: 100px;
-}
-
-.rightTop{
-    width: 400px;
-    float: right;
-    padding-right: 150px;
-
-}
-
-.leftBottom{
-    width: 400px;
-    float: left;
-    padding-left: 100px;
-}
-.leftBottom{
-
-}
-
-.righttBottom{
-    width: 400px;    
-    float: right;
-    padding-right: 150px;
-
-}
-.textAboutUsBlok{
-    float: right;
-    width: 290px;
-    height: 100%;
-}
-.textAboutUsBlok :nth-child(1){
+.aboutUsCell h3{
+    font-size: 24px;
+    padding-bottom: 20px;
     text-transform: capitalize;
-    font: bold 20px 'Lato Regular';
 }
-
-.textAboutUsBlok :nth-child(even){
-    text-transform: capitalize;
-    font: normal 16px 'Lato Regular';
+.aboutUsCell p{
+    font-size: 20px;
+    line-height: 1.5;
 }
 /*========= КОНЕЦ ABOUT US ===================================================*/
 
 
 /*========== FEATURES ========================================================*/
+
 .features{
     text-align: center;
+    padding-top: 120px;
+
 }
-.features p:first-child{
-    font-family: 'Lato Regular';
+
+.features .container h2{
     font-size: 45px;
     text-transform: capitalize;
 }
-.featuresBlok{
-    width: 100%;
 
+.features .container p{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    font-family: 'Lato Bold';
+    font-size: 20px;
 }
-.textFeatures{
-    width: 40%;
-    float: left;
-    padding-top: 20px;
-    padding-left: 40px;
-}
-
-.textFeatures h3{
-    text-transform: capitalize;
-}
-
-.textFeaturesInstant{
-    position: relative;
-    padding-left: 110px;
-}
-
-.textFeaturesVarios{
-    position: relative;
-    padding-left: 110px;
-}
-
-.textFeaturesFull{
-    position: relative;
-    padding-left: 110px;
-}
-
-.iconFeatures{
-    position: absolute;
-    left: 10px;
-    
-}
-.textFeaturesFormat{
-    margin-top: 30px;
-}
-.textFeaturesFormat p, h3{
-    width: 90%;
-    text-align: left;
-}
-
-.featuresImg{
-    width: 50%;
-    float: right;
-    position: relative;
-}
-    .colorQrt{   
-        margin: 20px auto;
-        width: 400px;
-        height:300px;
-        background: linear-gradient(to right, red 0, red 50%, blue 50%, blue 100%);
-    }
-    .featuresImg img{
-        width: 40%;
-        position: absolute;
-        top: 10px;
-        right: 200px;
-    }
-    
 /*========= КОНЕЦ FEATURES ===================================================*/
 
 
 /*========== ADVANTAGES ======================================================*/
-
-
 /*========= КОНЕЦ ADVANTAGES =================================================*/
 
+/*========== FOOTER ==========================================================*/
+.footer{
+    background-image: url("../images/MapLayer 109.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 440px;
+    
+}
+
+/*========= КОНЕЦ FOOTER =====================================================*/
 
 
 /*  ===== СПРАВОЧНО==============
