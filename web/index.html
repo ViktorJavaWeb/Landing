@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="WEB-INF/css/style.css" type="text/css">
+    <link rel="stylesheet" href="WEB-INF/css/style.css" type="text/css" >
     <title>Title</title>
-    <script src="WEB-INF/css/jsFunction.js"></script>
+    <!---->
+
+       
+    
 </head>
 <body>
     
@@ -372,11 +375,30 @@
 
 <!--========== FOTO GO =======================================================-->
 <section class="fotoGo">
-    <div>
-        <img src="WEB-INF/images/coll/Shape 8.png" alt="">
-        <img src="WEB-INF/images/coll/Shape 8 copy.png" alt="">
-        <img src="WEB-INF/images/coll/Shape 8 copy 2.png" alt="">
-        <img src="WEB-INF/images/coll/Shape 8 copy 3.png" alt="">
+    <div class="contra outline1">
+        <div class="carousel-hider outline2">
+            <div class="carousel-arrow-left">Влево</div>
+            <div class="carousel-list">
+                <img class="carousel-element" src="WEB-INF/images/coll/Shape 8.png" alt="">
+                <img class="carousel-element" src="WEB-INF/images/coll/Shape 8 copy.png" alt="">
+                <img class="carousel-element" src="WEB-INF/images/coll/Shape 8 copy 2.png" alt="">
+                <img class="carousel-element" src="WEB-INF/images/coll/Shape 8 copy 3.png" alt="">
+                <img class="carousel-element" src="WEB-INF/images/coll/Shape 8.png" alt="">
+                <img class="carousel-element" src="WEB-INF/images/coll/Shape 8 copy.png" alt="">
+                <img class="carousel-element" src="WEB-INF/images/coll/Shape 8 copy 2.png" alt="">
+                <img class="carousel-element" src="WEB-INF/images/coll/Shape 8.png" alt="">
+                <img class="carousel-element" src="WEB-INF/images/coll/Shape 8 copy.png" alt="">
+                <img class="carousel-element" src="WEB-INF/images/coll/Shape 8 copy 2.png" alt="">
+                <img class="carousel-element" src="WEB-INF/images/coll/Shape 8 copy 3.png" alt="">
+                <img class="carousel-element" src="WEB-INF/images/coll/Shape 8.png" alt="">
+                <img class="carousel-element" src="WEB-INF/images/coll/Shape 8 copy.png" alt="">
+                <img class="carousel-element" src="WEB-INF/images/coll/Shape 8 copy 2.png" alt="">
+                <img class="carousel-element" src="WEB-INF/images/coll/Shape 8 copy 3.png" alt="">
+            </div>
+            <div class="carousel-arrow-right">Вправо</div>
+        </div>
+
+
     </div>
 </section>
 <!--========= КОНЕЦ FOTO GO ==================================================-->
@@ -419,11 +441,42 @@
         <div class="icon">twitter</div>
         <div class="icon">goole</div>
         <p>colorful flat 2015. all rights reserved</p>
-    </div>       
+    </div>
+    <a class="top" href="#">Вверх</a>
 </section>
 
 <!--========= КОНЕЦ CONTACT US ===================================================-->
+<h1>Карусель фотографий</h1>
+<p>Карусель фотографий запускается сразу при открытии. Все картинки карусели прокручиваются непрерывно, до тех пор пока мышька не окажется над одной из них.
+    Колесиком мышки находясь над каруселью можно задать направление движения карусели влево или вправо.</p>
+<p>Особенности данного слайдера-карусели:</p>
+<ul>
+    <li>Все картинки зацикленены, т.е. Вы можете бесконечно крутить в обе стороны, при этом картинки показываются по кругу</li>
+    <li>При наведении мышки на карусель, движение останавливаеется, чтобы сделать клик на выбранной картинке.</li>
+    <li>В каруселе могут быть картинки любого размера и соотношения сторон. Достаточно задать только высоту картинки.</li>
+    <li>Поддержка колесика мышки для управления направлением движения</li>
+    <li>Чистый, компактный Javascript. Не используются никакие сторонние библиотеки</li>
+</ul>
+<div id="scroller_container" onmousemove="_scroller.stop();" onmouseout="_scroller.timer(_scroller.direct);">
+    <div>
+        <a href="#1" onclick="return!1"><img src="http://kdg.htmlweb.ru/photo/praga/b1.jpg" height="100" alt=""></a>
+        <a href="#2" onclick="return!1"><img src="http://kdg.htmlweb.ru/photo/praga/b2.jpg" height="100" alt=""></a>
+        <a href="#3" onclick="return!1"><img src="http://kdg.htmlweb.ru/photo/praga/b3.jpg" height="100" alt=""></a>
+        <a href="#4" onclick="return!1"><img src="http://kdg.htmlweb.ru/photo/praga/b4.jpg" height="100" alt=""></a>
+        <a href="#5" onclick="return!1"><img src="http://kdg.htmlweb.ru/photo/praga/b5.jpg" height="100" alt=""></a>
+        <a href="#6" onclick="return!1"><img src="http://kdg.htmlweb.ru/photo/praga/b6.jpg" height="100" alt=""></a>
+        <a href="#1" onclick="return!1"><img src="http://kdg.htmlweb.ru/photo/praga/b1.jpg" height="100" alt=""></a>
+        <a href="#2" onclick="return!1"><img src="http://kdg.htmlweb.ru/photo/praga/b2.jpg" height="100" alt=""></a>
+        <a href="#3" onclick="return!1"><img src="http://kdg.htmlweb.ru/photo/praga/b3.jpg" height="100" alt=""></a>
+        <a href="#4" onclick="return!1"><img src="http://kdg.htmlweb.ru/photo/praga/b4.jpg" height="100" alt=""></a>
+        <a href="#5" onclick="return!1"><img src="http://kdg.htmlweb.ru/photo/praga/b5.jpg" height="100" alt=""></a>
+        <a href="#6" onclick="return!1"><img src="http://kdg.htmlweb.ru/photo/praga/b6.jpg" height="100" alt=""></a>
+    </div>
+</div>
 
+<br class="clear">
+<p>За основу взят код <a href="slider_photo_plenka.php">Слайдер фотопленки</a>, и добавлена обработка переноса последнего элемента в начало
+    при прокручивании за пределы первого элемента  и соответственно при вращении слайдера в другую сторону.</p>
 
 <!--========== FOOTER ========================================================-->
     <section class="footer">
@@ -432,6 +485,10 @@
         </div>
     </section>
 <!--========= КОНЕЦ FOOTER ===================================================-->
+<script type="text/javascript" src="WEB-INF/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="WEB-INF/js/jsFunction.js"></script>
+
+
 
 </body>
 </html>

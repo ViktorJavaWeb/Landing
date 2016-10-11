@@ -297,7 +297,7 @@
 }
 
 .testimonials p{
-    line-height: 34px;54546465
+    line-height: 34px;
 }
 
 .testimonials p:nth-last-of-type(1){
@@ -451,18 +451,64 @@
 /*========== FOTO GO ==========================================================*/
 
 .fotoGo{
-    font-size: 0;
+    margin: 0 auto;
 }
 
 .fotoGo .container{
     background-color: azure;
 }
-
+/*
 .fotoGo img{
     display: inline-block;
     width: 25%;
     
 }
+*/
+/*=====================================*/
+.fotoGo{
+    position: relative;
+}
+.carousel-hider{
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-list{
+    width: 10000px;
+}
+.carousel-element img{
+    display: inline-block; 
+    width: 10px;
+}
+.carousel-arrow-left{
+    position: absolute;
+    padding-left: 10px;
+    left: 10px;
+    top: 50%;
+    background-color: #ff4538;
+}
+/*.carousel-arrow-left a, .carousel-arrow-right a{
+    text-decoration: none;
+  }
+*/
+  
+.carousel-arrow-left:hover, .carousel-arrow-right:hover{
+      cursor: pointer;
+  }
+  
+.carousel-arrow-right{
+    position: absolute; 
+    padding-right: 10px;
+    right: 10px;
+    top: 50%;
+    background-color: #ff4538;
+}
+
+
+/*=====================================*/
+
+
+
 /*========= КОНЕЦ FOTO GO =====================================================*/
 
 
@@ -576,6 +622,33 @@
 /*========= КОНЕЦ FOOTER =====================================================*/
 
 
+
+#scroller_container {
+    margin: 0 auto;
+    width: 530px;
+    overflow: hidden;
+    line-height:0;
+    font-size:0;
+}
+#scroller_container div {
+    float: left;
+    vertical-align: baseline;
+}
+#scroller_container>div {
+    position: relative;
+    white-space: nowrap;
+    width: 100%;
+    padding: 22px 0;
+}
+#scroller_container>div a,
+#scroller_container>div a img {
+    padding: 0;
+    margin:0;
+}
+#scroller_container>div a img {
+    margin: 0 1px;
+    border:0;
+}
 
 /*  ===== СПРАВОЧНО==============
 background: linear-gradient(to right, red 0, red 50%, blue 50%, blue 100%);
